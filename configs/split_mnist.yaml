@@ -1,0 +1,5 @@
+dataset: split_mnist
+buffer_size: 400
+gating: entropy_confidence_attention
+epochs: 5
+batch_size: 64

@@ -1,0 +1,22 @@
+{
+  "Accuracy vs Budget (Split CIFAR-10)": {
+    "Reservoir": {
+      "budget": [100, 250, 500, 1000, 2000],
+      "accuracy": [0.54, 0.66, 0.72, 0.77, 0.79],
+      "mean": 0.696,
+      "std": 0.0921
+    },
+    "InfoGate (No Gating)": {
+      "budget": [100, 250, 500, 1000, 2000],
+      "accuracy": [0.63, 0.64, 0.65, 0.64, 0.63],
+      "mean": 0.638,
+      "std": 0.0084
+    },
+    "InfoGate (Full Gating)": {
+      "budget": [100, 250, 500, 1000, 2000],
+      "accuracy": [0.70, 0.74, 0.76, 0.78, 0.81],
+      "mean": 0.758,
+      "std": 0.0383
+    }
+  }
+}
